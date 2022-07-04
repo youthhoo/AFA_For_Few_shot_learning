@@ -47,23 +47,23 @@ python train_ATA.py --model ResNet10 --method GNN --max_lr 80. --T_max 5 --prob 
 python train_ATA.py --model ResNet10 --method TPN --max_lr 20. --T_max 5 --prob 0.6 --n_shot 5 --name TPN_ATA --train_aug
 ```
 
-### train with AFA
+### 5.train with AFA
 
 ```
 python train_ND.py --model ResNet10 --method GNN --n_shot 5 --name GNN_ND --train_aug
 python train_ND.py --model ResNet10 --method TPN --n_shot 5 --name TPN_ND --train_aug
 ```
 
-### Ablation experiments
+### 6.Ablation experiments
 
 ```
 python train_NND.py --model ResNet10 --method GNN --n_shot 5 --name GNN_ND --train_aug # 'worst-case feature distribution'
 python train_nonlin.py --model ResNet10 --method GNN --n_shot 5 --name GNN_ND --train_aug #non-linear transformation
 ```
 
-### Evaluation and Fine-tuning
+## Evaluation and Fine-tuning
 
-## 1.Test the trained model on the unseen domains.
+### 1.Test the trained model on the unseen domains.
 
 ```
 python test.py --dataset cub --n_shot 5 --model ResNet10 --method GNN --name GNN_ND
