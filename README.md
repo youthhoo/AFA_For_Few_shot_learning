@@ -1,7 +1,7 @@
 # AFA_For_Few_shot_learning
 
 <br>
-[**Adversarial Feature Augmentation for Cross-domain Few-shot Classification**]
+[** Adversarial Feature Augmentation for Cross-domain Few-shot Classification **]
 <br>
 
 Yanxu Hu, Andy Ma
