@@ -1,4 +1,4 @@
-# AFA_For_Few_shot_learning
+# AFA_For_Few-Shot_Learning
 
 <br>
 Please cite our paper if you find the code or dataset useful for your research.
