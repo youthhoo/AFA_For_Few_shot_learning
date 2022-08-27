@@ -7,15 +7,10 @@ Please cite our paper if you find the code or dataset useful for your research.
 European Conference on Computer Vision (ECCV), 2022
 (```)
 @article{hu2022adversarial,
-
   title={Adversarial Feature Augmentation for Cross-domain Few-shot Classification},
-  
   author={Hu, Yanxu and Ma, Andy J},
-  
   journal={arXiv preprint arXiv:2208.11021},
-  
   year={2022}
-  
 }
 (```)
 <br>
