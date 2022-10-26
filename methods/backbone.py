@@ -929,7 +929,7 @@ class Gram(nn.Module):
     feature2_T = feature2.transpose(1,2)
     Gram1 = torch.bmm(feature1,feature1_T)
     Gram2 = torch.bmm(feature2,feature2_T)
-    GRAM_LOSS = (1/(4 * size * size * channel_size * channel_size)) * torch.sum((Gram1 - Gram2)**2)
+    GRAM_LOSS = (1/(4 * size * size * channel_size * channel_size)) * torch.sqrt(torch.sum((Gram1 - Gram2)**2))
     
     return GRAM_LOSS
 
